@@ -9,8 +9,8 @@ environment:
 services:
   - name: 'api-rest-go'
     github:
-      repository: 'zero101010/api-rest-go'
-      branchName: 'zero101010-patch-1'
+      repository: 'binlab/api-rest-go'
+      branchName: 'master'
       docker:
         defaultTag: 'main'
         app:
