@@ -10,7 +10,7 @@ services:
   - name: 'api-rest-go'
     github:
       repository: 'binlab/api-rest-go'
-      branchName: 'master'
+      branchName: 'change-github-urls'
       docker:
         defaultTag: 'main'
         app:
