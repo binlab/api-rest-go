@@ -8,8 +8,6 @@ services:
       repository: 'zero101010/api-rest-go'
       branchName: 'zero101010-patch-1'
       docker:
-        defaultTag: 'main'
-      docker:
         builder:
           engine: "buildkit"
         defaultTag: "main"
