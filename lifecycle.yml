@@ -6,11 +6,11 @@ services:
   - name: 'api-rest-go'
     github:
       repository: 'binlab/api-rest-go'
-      branchName: 'change-github-urls'
+      branchName: 'master'
       docker:
         builder:
           engine: "buildkit"
-        defaultTag: "main"
+        defaultTag: "master"
         app:
           dockerfilePath: 'sysops/dockerfiles/app.Dockerfile'
           env:
