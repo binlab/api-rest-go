@@ -15,7 +15,7 @@ services:
           dockerfilePath: 'sysops/dockerfiles/app.Dockerfile'
           env:
             PORT: "8080"
-            SECRET: "{{openstack:75ab4164-5e70-4f1e-9008-eda0f5525d3c:password}}"
+            SECRET: "{{barbican:75ab4164-5e70-4f1e-9008-eda0f5525d3c:password}}"
           ports:
             - 8080
       deployment:
