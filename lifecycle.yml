@@ -15,6 +15,7 @@ services:
           dockerfilePath: 'sysops/dockerfiles/app.Dockerfile'
           env:
             PORT: "8080"
+            SECRET: "{{aws:aws/secret:password}}"
           ports:
             - 8080
       deployment:
