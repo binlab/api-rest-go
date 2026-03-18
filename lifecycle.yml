@@ -17,6 +17,7 @@ services:
             PORT: "8080"
             SECRET-TEXT: "{{barbican:75ab4164-5e70-4f1e-9008-eda0f5525d3c}}"
             SECRET-JSON: "{{barbican:5326e552-6572-4a07-8851-2f1144a0efbf:password}}"
+            SECRET-AWS: "{{aws:aws/secret:password}}"
           ports:
             - 8080
       deployment:
